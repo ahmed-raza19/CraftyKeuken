@@ -1,0 +1,172 @@
+
+
+.logo {
+  position: absolute; /* Position the image relative to the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for actual centering */
+  z-index: -1; /* Send the logo behind */
+  opacity: 0.2; /* Optional: Make the logo semi-transparent for better readability */
+  width: 300px; /* Adjust size as needed */
+}
+
+
+
+.input{
+   /* border: 2px solid yellow; */
+    width: 500px;
+    height:400px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    box-shadow: opx 0px 20px rgba(red, green, blue, alpha);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 30px 40px;
+	margin-left: 445px;
+	margin-top: 150px;
+
+    
+}
+
+.input .username
+{
+    position: relative;
+}
+.input .password{
+    position: relative;
+}
+
+.username{
+    /* border: 2px solid pink; */
+width: 100%;
+height: 50px;
+}
+
+.password{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 50px;
+}
+
+.username input {
+    /* border: 2px solid greenyellow; */
+width: 100%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255 , 255 , .2);
+border-radius: 40px;
+padding: 20px 45px 20px 20px;
+font-size: 16px;
+color: #1f2024;
+}
+
+.username input::placeholder{
+    color: #1f2024;
+}
+
+.password input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255 , 255 , .2);
+border-radius: 40px;
+padding: 20px 45px 20px 20px;
+font-size: 16px;
+color: #1f2024;
+}
+    
+.password input::placeholder{
+    color: #1f2024;
+}
+
+
+.username i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+   transform: translateY(-50%);
+}  
+
+.password i {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.input .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -5px 0 15px;
+   
+    
+}
+
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+   padding: 30px;
+}
+
+
+.remember-forget a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.input .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff6d;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , .1) ;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.input .btn:hover {
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5); 
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.02); 
+}
+
+.input .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+
+
+}
+
+
+.remember-forget label input{
+    accent-color: #fff;
+    
+}
