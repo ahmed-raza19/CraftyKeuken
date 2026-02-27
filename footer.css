@@ -1,0 +1,119 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main2{
+    /* border: 2px solid red; */
+	background-color: #1f2024;
+	color: #f0f1f3;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 40px;
+
+}
+.down{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+
+.indown{
+    /* border: 2px solid #fff; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 70px;
+    position: relative;
+
+}
+
+.col1{
+    /* border: 2px solid greenyellow; */
+    color: #f0f1f3;
+	background-color: #1f2024;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.col2{
+    /* border: 2px solid blue; */
+    color: #f0f1f3;
+	background-color: #1f2024;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.col3{
+    /* border: 2px solid green; */
+    color: #f0f1f3;
+	background-color: #1f2024;
+    display: flex;
+    flex-direction: column;  
+    width: 50%;
+    height: 40%;
+    padding-right: 300px;
+}
+
+.col4{
+    /* border: 2px solid fuchsia; */
+    color: #f0f1f3;
+	background-color: #1f2024;
+    display: flex;
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 770px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.col4 i{
+    border: 2px solid #f0f1f3 ;
+    height: 100%;
+    width: 17%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+
+.col4 i:hover{
+    transform: scale(1.1);
+}
+
+
+.last{
+    position: absolute;
+    /* border: 2px solid sienna; */
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    color: #f0f1f3;
+	background-color: #1f2024;
+    /* align-items: center;
+    justify-content: baseline; */
+    margin-top: 295px;
+    margin-left: 130px;
+}
