@@ -1,0 +1,250 @@
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">  <!-- font-family: 'Merriweather', serif; -->
+<link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">  <!-- font-family: 'Joan', sans-serif; -->
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">  <!-- font-family: 'Inter', sans-serif; -->
+<link rel='stylesheet' type='text/css' media='screen' href='footer.css'>
+<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='footer.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src='main.js'></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- #ee441f (orange)-->
+<!-- #1f2024 (somewhat black)-->
+<!-- #f0f1f3 (white)-->
+<style>
+  a 
+  {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  
+  button 
+  {
+    border-width: 0px; 
+  }
+  
+  a:hover
+  {
+    color: #1f2024;
+  }
+  
+  .col1:hover
+  {
+    text-decoration: underline;
+	text-decoration-style: bold;
+	cursor: pointer;
+  }
+  .col2:hover
+  {
+    text-decoration: underline;
+	text-decoration-style: bold;
+	cursor: pointer;
+  }
+  .col3:hover
+  {
+    text-decoration: underline;
+	text-decoration-style: bold;
+	cursor: pointer;
+  }
+  .col4 i{
+    border: 2px solid #fff;
+    height: 40px;
+    width: 40px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #fff;
+    /* overflow: hidden; */
+    }
+  .brand-title:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    cursor: pointer;
+  }
+  .nav-text:hover{
+  transform: scale(1.1);
+}
+.login-button:hover{
+  transform: scale(1.1);
+}
+.signup-button:hover{
+  transform: scale(1.1);
+}
+.review input{
+  padding-left: 5px;
+}
+
+.message button{
+  border-radius: 8px;
+  color: #f0f1f3;
+  background-color: #1f2024;
+  border: 2px solid #f0f1f3;
+  outline: none;
+}
+.message button:hover{
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+</style>
+
+
+
+<body style="background-color: #f0f1f3">
+  <div style="display: flex; justify-content: space-between; width: 100%">
+ <a href="Main Page.html"> <p class="brand-title" style="font-family: 'Merriweather', serif; margin-left: 50px; margin-top: 20px; font-size: 40px"> CRAFTYKEUKEN </p></a>
+  <div style="margin-right: 50px; margin-top: 40px; font-size: 15px">
+    <button class="nav-text" style="border-width: 0px"> <a href="categories.html"> <p style="font-family: 'Joan', sans-serif;"> <b>Category</b> </a> </p> </button>
+	<button class="nav-text" style="border-width: 0px"> <a href="tutors.html"> <p style="font-family: 'Joan', sans-serif; margin-left: 30px"> <b>Tutors</b> </a> </p> </button>
+	<button class="nav-text" style="border-width: 0px"> <a href="aboutus.html"> <p style="font-family: 'Joan', sans-serif; margin-left: 30px"> <b>About Us</b> </a> </p> </button>
+	<button class="nav-text" style="border-width: 0px"> <a href="Contact Us.html"> <p style="font-family: 'Joan', sans-serif; margin-left: 30px"> <b>Contact Us</b> </a> </p> </button>
+	<button class="login-button" style="border-width: 2px; border-radius: 20px; width: 100px; height: 30px; margin-left: 30px"> <a href="login.html"> <p style="font-family: 'Joan', sans-serif; text-align: center"> Login </p> </a> </button>
+	<button class="signup-button" style="border-width: 2px; border-radius: 20px; width: 100px; height: 30px; margin-left: 10px; background-color: #1f2024"> <a href="sign.html"> <p style="font-family: 'Joan', sans-serif; text-align: center; color: #f0f1f3"> Sign Up </p> </a> </button>
+  </div>	
+</div>
+<br><br>
+
+
+
+
+<h1 style="font-family: 'Joan', sans-serif; text-align: center; color: #1f2024"> Give us a review!</h1>
+<div style="font-family: 'Joan', sans-serif; background-color: #1f2024; width: 900px; height: 320px; border-radius: 20px; margin-top: 10px" class="container-xxl">
+  <div class="review">
+    <br>
+    <form style="margin-left: 40px; color: #f0f1f3; margin-top: 30px">
+	  <b>Name:</b> 
+      <input style="background-color: #f0f1f3; border-width: 0px; border-radius: 5px; margin-left: 77px; width: 30%" type="text" name="name">
+      <br><br>
+      <b>Email:</b>
+      <input style="background-color: #f0f1f3; border-width: 0px; border-radius: 5px; margin-left: 77px; width: 30%" type="Email" name="email" placeholder="    @gmail.com">  
+      <br><br>
+      <b>Phone Number:</b>
+      <input style="background-color: #f0f1f3; border-width: 0px; border-radius: 5px; margin-left: 15px; width: 30%" type="tel" name="phone" placeholder="+92 xxx-xxxxxxx">
+      <br><br>
+      <b>Subject:</b>
+      <input style="background-color: #f0f1f3; border-width: 0px; border-radius: 5px; margin-left: 68px; width: 50%" type="text" name="subj">
+      <br><br>
+      <div class="message">
+      <b>Message:</b>
+      
+      <input style="background-color: #f0f1f3; border-width: 0px; border-radius: 5px; margin-left: 60px; width: 75%" type="text" name="message">
+    <button type="submit">Submit</button>
+    </div>
+    </form>
+  </div>
+</div>
+
+<br><br>
+<div style="font-family: 'Joan', sans-serif">
+  <h2 style="text-align: center">Contact Us</h2>
+  <hr style="width: 80%; margin-left: 130px">  
+</div>
+<br>
+
+
+<div style="display: flex">
+  <div class="card" style="font-family: 'Joan', sans-serif; background-color: #f0f1f3; width: 18rem; margin-left: 250px; border-width: 0px; border-radius: 10px">
+    <img src="This Address Does Not Exit in Real Life.png" class="card-img-top" alt="no image :(">
+    <div style="background-color: #1f2024; color: #f0f1f3; border-radius: 15px" class="card-body">
+      <h5 class="card-title"><b>Our Address</b></h5>
+	  <br>
+      <p class="card-text">1234 Sector C, <br>Commercial Area, <br>Gulshan-e-Iqbal, Karachi, <br>Sindh, Pakistan <br>Postal Code: 75300</p>
+      <a style="margin-left: 66px; background-color: #f0f1f3; color: #1f2024; border-width: 0px; border-radius: 30px" href="https://maps.app.goo.gl/xDe6cgfuwX4Xv8W19" class="btn btn-primary"><b>Our Location</b></a>
+    </div>
+  </div>
+  
+  <div class="card" style="font-family: 'Joan', sans-serif; background-color: #f0f1f3; width: 18rem; margin-left: 250px; border-width: 0px; border-radius: 10px">
+    <img src="These Social Media Addresses Do Not Exit in Real Life.png" class="card-img-top" alt="no image :(">
+    <div style="background-color: #1f2024; color: #f0f1f3; border-radius: 15px" class="card-body">
+      <h5 class="card-title"><b>Social Media</b></h5>
+	  <div style="display: flex">
+        <p class="card-text"><b>Instagram:</b> </p>
+	    <a style="margin-left: 20px; background-color: #1f2024; color: #f0f1f3; border-width: 0px" href="https://www.instagram.com/CraftyKeuken/#"<b>@CraftyKeuken</b></a>
+	  </div>	
+	  <div style="display: flex">
+        <p class="card-text"><b>X:</b> </p>
+	    <a style="margin-left: 75px; background-color: #1f2024; color: #f0f1f3; border-width: 0px" href="https://www.twitter.com/CraftyKeuken"<b>@CraftyKeuken</b></a>
+	  </div>
+	  <div style="display: flex">
+        <p class="card-text"><b>linkedin:</b> </p>
+	    <a style="margin-left: 30px; background-color: #1f2024; color: #f0f1f3; border-width: 0px" href="https://www.linkedin.com/in/craftykeuken"<b>@CraftyKeuken</b></a>
+	  </div>
+	  <div style="display: flex">
+        <p class="card-text"><b>Phone:</b> </p>
+	    <a style="margin-left: 43px; background-color: #1f2024; color: #f0f1f3; border-width: 0px" href="https://www.linkedin.com/in/craftykeuken"<b>+92 301 1234567</b></a>
+	  </div>
+	  <div style="display: flex">
+	    <p class="card-text"><b>Email:</b> </p>
+		<a style="margin-left: 43px; background-color: #1f2024; color: #f0f1f3; border-width: 0px; font-size: 15px" href="https://mail.google.com/mail/u/0/"<b>contact@craftykeuken.com</b></a>
+	  </div>
+    </div>
+  </div>
+</div>
+<br><br><br>
+
+
+<div class="main2">
+    <div style="background-color: #1f2024; z-index: 1" class="down">
+    <div class="indown">
+  
+    <div style="font-family: 'Joan', sans-serif" class="col1">
+      <h2><u>About us</u></h2>
+      <br><br>
+      <p>Who we are?</p>
+      <p>Terms and Conditions</p>
+      <p>Privacy Policy</p>
+      <p>Online Lessons</p>
+       <p>States</p>
+    </div>
+  
+    <div style="font-family: 'Joan', sans-serif" class="col2">
+      <h2><u>All Subjects</u></h2>
+	  <br><br>
+      <p>Career Development</p>
+      <p>Languages</p>
+      <p>Arts & Hobbies</p>
+      <p>Health and Well bieng</p>
+      <p>Sports</p>
+    </div>
+  
+    <div style="font-family: 'Joan', sans-serif" class="col3">
+      <h2><u>Help</u></h2>
+	  <br><br>
+      <p>Contact</p>
+    </div>
+  
+    <div style="z-index: 1" class="col4">
+      <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+       <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+       <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube' ></i></a>
+     </div>     
+          
+      
+       
+    </div>
+        <div class="last">
+          <h2>___________________________________________________________________________</h2>
+          <p style="font-family: 'Joan', sans-serif">© 2024 Craftykuken, learn with the best!</p>
+        </div>
+   
+   </div>     
+</div>
+
+
+<hr style="width: 80%; margin-left: 130px">  
+<p style="font-family: 'Inter', sans-serif; font-size: 12px; text-align: center; color: #1f2024">Please note that not all images featured on this website are owned by its creator (except the logo of the company). We strive to credit original artists and photographers whenever possible. If you find an image that belongs to you and would like it credited or removed, kindly contact us. <br><br>A heartfelt thank you to our viewers for supporting this website. Your visits and engagement mean the world to us, and we are grateful for your time and interest!  </p>
+
+
+
+
+
+</body>
+</html>
