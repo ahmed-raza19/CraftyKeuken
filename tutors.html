@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tutors.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">  <!-- font-family: 'Merriweather', serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">  <!-- font-family: 'Joan', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">  <!-- font-family: 'Inter', sans-serif; -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+
+</head>
+
+<style>
+  a 
+  {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  
+  button 
+  {
+    border-width: 0px; 
+  }
+  
+  a:hover
+  {
+    color: #1f2024;
+	transform: scale(1.1);
+  }
+  
+  .col1:hover
+  {
+    text-decoration: underline;
+	text-decoration-style: bold;
+	cursor: pointer;
+  }
+  .col2:hover
+  {
+    text-decoration: underline;
+	text-decoration-style: bold;
+	cursor: pointer;
+  }
+  .col3:hover
+  {
+    text-decoration: underline;
+	text-decoration-style: bold;
+	cursor: pointer;
+  }
+.a i:hover{
+    transform: scale(1.1);
+	
+}
+.col4 i{
+    border: 2px solid #fff;
+    height: 100%;
+    width: 38px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #fff;
+    /* overflow: hidden; */
+    }
+    .navbar-buttons{
+      display: flex;
+      margin-left: 300px;
+      background-color:transparent;
+      
+    }
+    .navbarinternel{
+    justify-content: space-between;
+    }
+  .nav-text{
+    background-color: transparent;
+    display: flex;
+  
+  }
+    .nav-text:hover{
+      transform: scale(1.1);
+    }
+  
+</style>
+
+<body style="background-color: #f0f1f3">
+    <div class="main">
+    <div class="main1">
+      <div class="navbarinternel" style="display: flex; justify-content: space-between; width: 100%">
+      <a href="Main Page.html">  <p class="brand-title" style="font-family: 'Merriweather', serif; margin-left: 50px; margin-top: 20px; font-size: 40px"> CRAFTYKEUKEN </p></a>
+        <div class="navbar-buttons" style="margin-right: 50px; margin-top: 40px; font-size: 15px">
+          
+          <button class="nav-text" style="border-width: 0px"> <p style="font-family: 'Joan', sans-serif;"> <a href="categories.html"> <b>Category</b> </a> </p> </button>
+        <button class="nav-text" style="border-width: 0px"> <p style="font-family: 'Joan', sans-serif; margin-left: 30px"> <a href="tutors.html"> <b>Tutors</b> </a> </p> </button>
+        <button  class="nav-text" style="border-width: 0px"> <p style="font-family: 'Joan', sans-serif; margin-left: 30px"> <a href="aboutus.html"> <b>About Us</b> </a> </p> </button>
+        <button  class="nav-text" style="border-width: 0px"> <p style="font-family: 'Joan', sans-serif; margin-left: 30px"> <a href="Contact Us.html"> <b>Contact Us</b> </a></p> </button>
+        <button class="login-button" style="border-width: 2px; border-radius: 20px; width: 100px; height: 30px; margin-left: 30px"> <a href="login.html"> <p style="font-family: 'Joan', sans-serif; text-align: center"> Login </p> </a> </button>
+        <button  class="signup-button" style="border-width: 2px; border-radius: 20px; width: 100px; height: 30px; margin-left: 10px; background-color: #1f2024"> <a href="sign.html"> <p style="font-family: 'Joan', sans-serif; text-align: center; color: #f0f1f3"> Sign Up </p> </a> </button>
+        </div>	
+      </div>
+    <br><br>
+            <div class="upper">
+              <div class="heading"> 
+              <h1 style="text-align: center; font-size: 70px; font-family: 'Merriweather', serif"><b>Find The Perfect Tutor</b></h1>
+             </div>
+             <br><br>
+             <div class="searchback">
+             <div class="search">
+              <input style="font-family: 'Joan', sans-serif; color: #f0f1f3" type="search" placeholder="Search Top Tutors . . .">
+              <button style="font-family: 'Joan', sans-serif" type="submit" class="button">Search</button>
+              <!-- <i class='bx bx-search'></i> -->
+           </div>
+           </div>
+          
+
+           <div class="bar">
+            <a href="meow.html"> <button style="margin-left: 10px" type="button" class="btn btn-outline-dark">Maths </a></button>
+            <a href="meow.html"> <button style="margin-left: 10px" type="button" class="btn btn-outline-dark">Coding </a> </button>
+            <a href="meow.html"> <button type="button" class="btn btn-outline-dark">Physics</a> </button>
+            <a href="meow.html"> <button type="button" class="btn btn-outline-dark">Cooking</a></button>
+            <a href="meow.html"> <button type="button" class="btn btn-outline-dark">Teaching</a></button>
+            <a href="meow.html"> <button type="button" class="btn btn-outline-dark">DIY</a></button>
+            <a href="meow.html"> <button type="button" class="btn btn-outline-dark">Drawing</a></button>
+            <a href="meow.html"> <button style="margin-right: 25px" type="button" class="btn btn-outline-dark">Pottery</a></button>
+            </div>
+
+
+            </div>
+    </div>
+
+    <div class="tutors">
+        <div class="tutorheading">
+        <h3 >Top Reviewed Tutors</h3>
+        <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="tutor1.avif" class="myimg card-img-top" alt="...">
+            <div class="card-body">
+              <p style="font-family: 'Inter', sans-serif; font-size: 15px" class="card-text"><b> Marie Dubois (100 reviews) </b><br><b>Cook-</b> Marie is a professional chef with experience in French cuisine and cooking for Michelin-starred restaurants. </p>
+              
+              
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="tuor2.jpg" class="myimg card-img-top" alt="...">
+            <div class="card-body">
+                <p style="font-family: 'Inter', sans-serif; font-size: 15px" class="card-text"><b> Grace Walker (72 reviews) </b><br><b>DIY-</b> Grace is an expert in home renovations and DIY projects, with over 15 years of experience in construction and design. </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="tutor3.webp" class=" myimg card-img-top" alt="...">
+            <div class="card-body">
+                <p style="font-family: 'Inter', sans-serif; font-size: 15px" class="card-text"><b> Oliver Clark (120 reviews) </b><br><b>Furniture-</b>  Oliver is a furniture designer and upcycling enthusiast. He specializes in turning old furniture into modern pieces. </p>
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+    <div class="tutors2">
+
+        <div class="card" style="width: 18rem;">
+            <img src="tutor4.webp" class="myimg card-img-top" alt="...">
+            <div class="card-body">
+              <p style="font-family: 'Inter', sans-serif; font-size: 15px" class="card-text"><b>  Dr. James Newton (42 reviews) </b><br><b>Physics-</b>  Dr. Newton is a physicist and educator with a Ph.D. in Classical Mechanics. He has 15 years of experience in physics. </p>
+              
+              
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="tutor5draw.webp" class="myimg card-img-top" alt="...">
+            <div class="card-body">
+                <p style="font-family: 'Inter', sans-serif; font-size: 15px" class="card-text"><b>  Adam Cooper (72 reviews) </b><br><b>Drawing-</b> Adam is a freelance sketch artist specializing in realistic portrait drawings with over 8 years of teaching experience. </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="tuot6program.jpg" class=" myimg card-img-top" alt="...">
+            <div class="card-body">
+                <p style="font-family: 'Inter', sans-serif; font-size: 15px" class="card-text"><b>  Noah Martinez (125 reviews) </b><br><b>Programming-</b>  Oliver is a furniture designer and upcycling enthusiast. He specializes in turning old furniture into modern pieces. </p>
+            </div>
+          </div>
+    </div>
+
+<!-- footer -->
+
+<div style="background-color: #f0f1f3; font-family: 'Joan', sans-serif" class="carouselmain">
+
+  <div class="review">
+    <div class="commentstars">
+      <i style="margin-left: 160px" class='bx bxs-star'></i>
+      <i style="margin-left: 10px" class='bx bxs-star'></i>
+      <i style="margin-left: 10px" class='bx bxs-star'></i>
+      <i style="margin-left: 10px" class='bx bxs-star'></i>
+      <i style="margin-left: 10px" class='bx bxs-star'></i>
+      </div>
+      <div class="commentreview">
+  <h2 align="center">The Perfect Match</h2>
+  <p align="center">More then one million students gave</p>
+  <p align="center"><b>5 star rating to their tutors.</b></p>
+  </div>
+      </div>
+    
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="comment1.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="comment2.PNG" class="d-block w-100" alt="...">
+    </div>
+	<div class="carousel-item">
+      <img src="comment3n.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="comment3.PNG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="main2">
+    <div style="background-color: #1f2024; z-index: 1" class="down">
+    <div class="indown">
+  
+    <div style="font-family: 'Joan', sans-serif" class="col1">
+      <h2><u>About us</u></h2>
+      <br><br>
+      <p>Who we are?</p>
+      <p>Terms and Conditions</p>
+      <p>Privacy Policy</p>
+      <p>Online Lessons</p>
+       <p>States</p>
+    </div>
+  
+    <div style="font-family: 'Joan', sans-serif" class="col2">
+      <h2><u>All Subjects</u></h2>
+	  <br><br>
+      <p>Career Development</p>
+      <p>Languages</p>
+      <p>Arts & Hobbies</p>
+      <p>Health and Well bieng</p>
+      <p>Sports</p>
+    </div>
+  
+    <div style="font-family: 'Joan', sans-serif" class="col3">
+      <h2><u>Help</u></h2>
+	  <br><br>
+      <p>Contact</p>
+    </div>
+  
+    <div style="z-index: 1" class="col4">
+      <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+       <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+       <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube' ></i></a>
+     </div>     
+      
+       
+    </div>
+        <div class="last">
+          <h2>___________________________________________________________________________</h2>
+          <p style="font-family: 'Joan', sans-serif">© 2024 Craftykuken, learn with the best!</p>
+        </div>
+   
+   </div>     
+</div>
+
+
+
+<hr style="width: 80%; margin-left: 130px; height: 2px">  
+<p style="font-family: 'Inter', sans-serif; font-size: 12px; text-align: center">Please note that not all images featured on this website are owned by its creator (except the logo of the company). We strive to credit original artists and photographers whenever possible. If you find an image that belongs to you and would like it credited or removed, kindly contact us. <br><br>A heartfelt thank you to our viewers for supporting this website. Your visits and engagement mean the world to us, and we are grateful for your time and interest!  </p>
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
