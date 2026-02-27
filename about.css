@@ -1,0 +1,21 @@
+.container{
+    padding: 4%;
+    display: flex;
+}
+.header{
+    background-color:  #1f2024;
+    color: #f1f0f3;
+	height: 15%;
+}
+
+.head2{
+    /* border: 2px solid black; */
+    color: rgb(82, 106, 90);
+}
+.body{
+    /* border: 2px solid blue; */
+    color: #1f2024;
+}
+
+
+
