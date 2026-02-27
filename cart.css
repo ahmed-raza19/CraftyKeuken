@@ -1,0 +1,306 @@
+.main{
+    border: 2px purple;
+    height: 100%;
+    width: 100%;
+}
+
+.body-background {
+    background-color: #f0f1f3;
+}
+
+
+
+
+
+/* for header */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* to make it visible on scroll */
+    z-index: 1000;  /* ensures it stays on top */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* for a shadow effect */
+}
+body{
+    margin-top: 80px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+	background-color: #f0f1f3;
+}
+.brand-title {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+}
+.nav-buttons {
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.nav-button {
+    border-width: 0px;
+    background: none;
+}
+.nav-button:hover{    
+
+    transform: scale(1.1);
+}
+.nav-text {
+    font-family: 'Joan', sans-serif;
+}
+.login-button {
+    border-width: 2px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}
+.login-button:hover{
+    transform: scale(1.1);
+}
+.signup-button {
+    border-width: 2px;
+    border-radius: 20px;
+
+    width: 100px;
+    height: 30px;
+    background-color: #1f2024;
+}
+.signup-button:hover{
+    transform: scale(1.1);
+}
+.center-text {
+    text-align: center;
+}
+.signup-text {
+    color: #f0f1f3;
+}
+
+
+
+
+
+
+
+
+/* for body  */
+
+.box{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    border: #1f2024;
+    border-radius: 20px;
+    margin-left: 46.5%;
+    background-color: #1f2024;
+    color: #f0f1f3;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.space{
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+.jagha{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: larger;
+    
+}
+.sp1{
+    padding-left: 100px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head{
+    padding-left: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.checkout-btn {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    border: 2px solid black;
+    border-width: 2px;
+    border-radius: 20px;
+    color: #000000;
+    font-size: larger;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.no-underline {
+    text-decoration: none; /* Prevents underline */
+}
+
+.checkout-btn:hover{    
+    background-color: lavender; /* Change to green on hover */
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.detail{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 8px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.detail, h5{
+    padding-top: 23px;
+    padding-right: 5px;
+    font-weight: 700;
+    font-size: larger;
+}
+.col, h3{
+    font-weight: 400;
+}
+.col, h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+.col, p{
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+
+
+
+
+
+
+/* for footer */
+
+.main2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.down{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+
+.indown{
+    /* border: 2px solid #fff; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 70px;
+position: relative;
+
+}
+
+.col1{
+    /* border: 2px solid greenyellow; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.col2{
+    /* border: 2px solid blue; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.col3{
+    /* border: 2px solid green; */
+    color: #fff; 
+    display: flex;
+    flex-direction: column;  
+    width: 50%;
+    height: 40%;
+    padding-right: 300px;
+}
+
+.col4{
+    /* border: 2px solid fuchsia; */
+    color: #fffefe;
+    display: flex;
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 770px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+cursor: pointer;
+}
+
+.col4 i{
+border: 2px solid #fcfbfb;
+display: flex;
+height: 40px;
+width: 40px;
+gap: 20px;
+
+align-items: center;
+justify-content: center;
+border-radius: 100px;
+cursor: pointer;
+/* overflow: hidden; */
+}
+
+.col4 i:hover{
+    transform: scale(1.1);
+    color: #f0f1f3;
+}
+
+
+
+.last{
+    position: absolute;
+    /* border: 2px solid sienna; */
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    color: #faf8f8;
+    background-color: #000000;
+    /* align-items: center;
+    justify-content: baseline; */
+    margin-top: 300px;
+}
+
+
+
